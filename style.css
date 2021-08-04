@@ -118,6 +118,7 @@ footer {
 }
 
 .grid > div:first-child {
+  background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo1.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +127,7 @@ footer {
 }
 
 .grid > div:nth-child(2) {
-  background-color: rgb(0, 255, 13);
+  background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo2.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -134,7 +135,7 @@ footer {
   background-size: cover;
 }
 .grid > div:nth-child(3) {
-  background-color: rgb(23, 135, 187);
+  background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo3.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -143,6 +144,7 @@ footer {
 }
 
 .grid > div:nth-child(4) {
+   background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo_4.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -151,6 +153,7 @@ footer {
 }
 
 .grid > div:nth-child(5) {
+   background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo6.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -159,6 +162,7 @@ footer {
 }
 
 .grid > div:nth-child(6) {
+   background-color: rgba(0, 0, 0, 0.15);
   background-image: url(/photo5.png);
   background-position: center;
   background-repeat: no-repeat;
