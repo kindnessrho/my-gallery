@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 600 18px "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+header {
+  margin-top: 1.67rem;
+  margin-bottom: 2.16rem;
+}
+
+.pro-head img {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 16px;
+  margin-bottom: 0.62rem;
+}
+
+.head-cont,
+.pro-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-width: 19rem;
+}
+
+.pro-text h3 {
+  margin-bottom: 0.2rem;
+  color: #4e5150;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.pro-text p {
+  margin-bottom: 0.6rem;
+  color: #a9a9a9;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.pro-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 17rem;
+}
+
+.pro-body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  width: 4.3rem;
+  height: 2.8rem;
+  background: #e5e5e5;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.pro-body > div > h3 {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #4e5150;
+}
+
+.pro-body > div > p {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+section {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.75rem;
+  width: 100%;
+
+  height: auto;
+}
+
+.grid > div {
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+  width: auto;
+  height: 6rem;
+
+  border-radius: 12px;
+}
+
+.grid > div:first-child {
+  background-image: url(/photo1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.grid > div:nth-child(2) {
+  background-color: rgb(0, 255, 13);
+  background-image: url(/photo2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.grid > div:nth-child(3) {
+  background-color: rgb(23, 135, 187);
+  background-image: url(/photo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.grid > div:nth-child(4) {
+  background-image: url(/photo_4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.grid > div:nth-child(5) {
+  background-image: url(/photo6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.grid > div:nth-child(6) {
+  background-image: url(/photo5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.span-col-2 {
+  grid-column: span 2 / auto;
+}
+
+.span-row-2 {
+  grid-row: span 2 / auto;
+
+  min-height: 12.8rem;
+}
+
+footer p {
+  width: 15.94rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.78rem;
+  line-height: 17px;
+
+  width: 100%;
+  text-align: center;
+
+  color: #b9bdcf;
+  margin: 0.5rem auto;
+}
+
+footer a {
+  list-style: none;
+  text-decoration: none;
+  color: #b9bdcf;
+}
+
+footer a:first-child {
+  font-weight: bolder;
+}
+
+
+
+@media (max-width: 296px) {
+  section{
+    margin-left: 1rem;
+    background-color: green;
+    
+  }
+}
+
+
+
+@media (min-width: 500px) {
+  header {
+    margin-top: 3.3rem;
+  }
+
+  .pro-text h3 {
+    margin-bottom: 0.4rem;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .pro-text p {
+    margin-bottom: 0.12rem;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .pro-body > div {
+    width: 5.56rem;
+    height: 3.72rem;
+  }
+
+  .pro-body > div > h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .pro-body > div > p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  section {
+    width: 80.95%;
+  }
+
+  .grid > div {
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+    width: auto;
+    height: 8.7rem;
+
+    border-radius: 12px;
+  }
+
+  .span-row-2 {
+    grid-row: span 2 / auto;
+
+    min-height: 18.3rem;
+  }
+
+  body {
+    font: 600 18px "Montserrat", sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    width: 66.95%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .grid > div {
+    height: 15.7rem;
+  }
+
+  .span-row-2 {
+    min-height: 32.2rem;
+  }
+}
